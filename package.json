@@ -1,0 +1,19 @@
+{
+  "name": "pnp-msal-bug-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./lib",
+    "start:dev": "ts-node ./src"
+  },
+  "dependencies": {
+    "@pnp/nodejs-commonjs": "^2.4.0",
+    "@pnp/sp-commonjs": "^2.4.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1"
+  }
+}
